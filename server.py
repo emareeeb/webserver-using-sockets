@@ -20,9 +20,9 @@ def main():
     
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     ssl_server_socket = context.wrap_socket(server_socket, server_side=True)
-    ssl_server_socket.bind(('192.168.56.1', 5566))
+    ssl_server_socket.bind(('192.168.0.216', 5566))
     ssl_server_socket.listen(5)
-    print("[LISTENING] Server is listening on 192.168.56.1:5566")
+    print("[LISTENING] Server is listening on 192.168.0.216:5566")
     
     while True:
         conn, addr = ssl_server_socket.accept()
