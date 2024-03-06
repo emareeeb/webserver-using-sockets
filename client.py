@@ -10,7 +10,7 @@ def main():
 
 
     client = context.wrap_socket(client, server_hostname=None)
-    client.connect(('192.168.127.151', 5566)) 
+    client.connect(('192.168.0.216', 5566)) 
     
     print("[CONNECTED] Client connected to server.")
     while True:
