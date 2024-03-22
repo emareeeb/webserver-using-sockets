@@ -9,6 +9,8 @@ Before starting, ensure you have OpenSSL installed on your system. If not, follo
 1. Navigate to [Win32 OpenSSL](https://slproweb.com/products/Win32OpenSSL.html).
 2. Choose your operating system and preferred file type. (e.g., Win64 OpenSSL v3.2.1 200mb EXE).
 3. Download the file.
+4. Visit the location where Openssl is downloaded and navigate to the bin folder.
+5. Copy the path and paste it in the System Environment Variables.
 
 ## Generating SSL Certificates 📜
 
